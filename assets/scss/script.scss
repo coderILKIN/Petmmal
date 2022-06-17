@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    #header-navbar{
+        margin-top: 60px;
+        margin-bottom: 10px;
+        .header-logo{
+            img{
+                cursor: pointer;
+
+            }
+        }
+
+        nav{
+            ul{
+                li{
+                    list-style: none;
+                    margin: 10px 0px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 500;
+                    }
+                    a:hover{
+                        color: #16b8b8;
+                    }
+                    .active{
+                        color: #16b8b8;
+                    }
+                }
+            }
+        }
+
+        .header-icon{
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        i{
+                            font-size: 22px;
+                            color: black;
+                            margin: 10px;
+                        }
+                        i:hover{
+                            color: #16b8b8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+main{
+    
+    #main-slider{
+        
+        .carousel-inner{
+            
+            .carousel-item.active{
+    
+                img{
+
+                }
+                .carousel-caption{
+                    h5{
+                    }
+                    
+                    position: absolute;
+                    right: 0px;
+                    top: 320px;
+                    color: black;
+                    h1{
+
+                    }
+                }
+
+                .carousel-item.left{
+                    position: absolute;
+                    right: -40px;
+
+                }
+
+            }
+        }
+    }
+}
+
+#main-category{
+    .catagory-logo{
+        text-align: center;
+        img{
+
+        }
+        h2{
+
+        }
+    }
+}
